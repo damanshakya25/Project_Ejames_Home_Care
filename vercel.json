@@ -1,0 +1,13 @@
+{
+    "builds": [{
+        "src": "Project_Ejames_Home_Care/wsgi.py",
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "Project_Ejames_Home_Care/wsgi.py"
+        }
+    ]
+}

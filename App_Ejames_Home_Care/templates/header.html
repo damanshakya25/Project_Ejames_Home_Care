@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Just another WordPress site" />
+    <meta name="keywords" content="Medicure" />
+    <title>Ejames Home Care</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/Home.css' %}">
+    <script src="{% static 'js/Home.js' %}"></script>
+
+    <script type='text/javascript'
+        src='https://medicure.cmsmasters.net/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript'
+        src='https://medicure.cmsmasters.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+</head>
+<body>
+    <header id="header">
+        <div class="header_inner">
+            <div class="">
+                <div class="header_html">
+                    <span class=""><i class="fas fa-phone fa-rotate-90"></i> Contact us:<span style="width:1%"> </span>+910 000 000 000</span>
+                    <span class="">
+                        <span style="width:1%"> </span>
+                        <a href=""><i class="fas fa-envelope"></i> dummymail@gmail.com</a>
+                    </span>
+                </div>
+                <div class="wrap_social_icons">
+                    <ul class="social_icons">
+                        <li>
+                            <a target="_blank" href="#" title="#">
+                                <img src="{% static 'media/facebook.png' %}" alt="#" />
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" title="#">
+                                <img src="{% static 'media/twitter.png' %}" alt="#" />
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" title="#">
+                                <img src="{% static 'media/network.png' %}" alt="#" />
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" title="#">
+                                <img src="{% static 'media/linkedin.png' %}"
+                                    alt="#" />
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#" title="#">
+                                <img src="{% static 'media/skype.png' %}"
+                                    alt="#" />
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="cl"></div><a href="#" class="social_toggle"><span></span></a>
+                </div>
+            </div>
+            <div class="logo_wrap">
+                <a href="{% url 'Home' %}" title="" class="logo">
+                    <img src="{% static 'media/logo.png' %}"
+                        alt="" />
+                </a>
+            </div>
+            <a class="responsive_nav" href="javascript:void(0);"><span></span></a>
+            <!-- _________________________ Start Navigation _________________________ -->
+            <div class="wrap_nav">
+                <nav role="navigation">
+                    <ul id="navigation" class="navigation">
+                        <li id=""
+                            class="">
+                            <a href="{% url 'Home' %}"><span>Home Page</span></a>
+                        </li>
+                        <li id=""
+                            class="">
+                            <a><span>Features</span></a>
+                            <ul class="">
+                                <li id=""
+                                    class="">
+                                    <a><span>Shortcodes</span></a>
+                                    <ul class="">
+                                        <li id=""
+                                            class="">
+                                            <a><span>Block Shortcodes</span></a>
+                                            <ul class="">
+                                                <li id="">
+                                                    <a href=""><span>Person
+                                                            Block</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a href=""><span>Featured
+                                                            Blocks</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a href=""><span>Colored
+                                                            Blocks</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a href=""><span>Columns</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a href=""><span>Tabs
+                                                            &#038; Toggle</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a
+                                                        href=""><span>Information
+                                                            Boxes</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a href=""><span>Pricing
+                                                            Tables</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li id=""
+                                            class="">
+                                            <a><span>Other Shortcodes</span></a>
+                                            <ul class="">
+                                                <li id=""
+                                                    class="">
+                                                    <a href=""><span>Content
+                                                            Slider</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a
+                                                        href=""><span>Post
+                                                            Type Shortcode</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a
+                                                        href=""><span>Statistics</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a
+                                                        href=""><span>LightBoxes</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a
+                                                        href=""><span>Media</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a
+                                                        href=""><span>Audio &#038; Video Players</span></a>
+                                                </li>
+                                                <li id=""
+                                                    class="">
+                                                    <a href=""><span>Google Maps</span></a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id=""
+                                    class="">
+                                    <a><span>Layouts</span></a>
+                                    <ul class="">
+                                        <li id="" class="">
+                                            <a href=""><span>Contacts</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>About Us</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>404 Error Page</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>Password-protected page</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>Sitemap</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>Left Sidebar</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>Right Sidebar</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>Timeline Services</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>Timeline Blog</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id="" class="">
+                                    <a href=""><span>Testimonials</span></a>
+                                </li>
+                                <li id="" class="">
+                                    <a><span>Heading Templates</span></a>
+                                    <ul class="">
+                                        <li id="" class="">
+                                            <a href=""><span>Custom Heading Title</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>Heading with icon</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>Heading With Title and Subtitle</span></a>
+                                        </li>
+                                        <li id="" class="">
+                                            <a href=""><span>Heading with Title, Subtitle &#038; Icon</span></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id="" class="">
+                                    <a href=""><span>Typography</span></a>
+                                </li>
+                                <li id="" class="">
+                                    <a href=""><span>Widgets and sidebars</span></a>
+                                </li>
+                                <li id="" class="">
+                                    <a href=""><span>Form Builder</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="" class="">
+                            <a><span>Services</span></a>
+                            <ul class="">
+                                <li id="" class="">
+                                    <a href=""><span>Four Columns Services Page</span></a>
+                                </li>
+                                <li id="" class="">
+                                    <a href=""><span>Three Columns Service Page</span></a>
+                                </li>
+                                <li id="" class="">
+                                    <a href=""><span>Two Columns Service Page</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="" class="">
+                            <a href=""><span>Doctors</span></a>
+                        </li>
+                        <li id="" class="">
+                            <a href=""><span>Appointments</span></a>
+                        </li>
+                        <li id="" class="">
+                            <a href=""><span>Blog</span></a>
+                        </li>
+                        <li id="" class="">
+                            <a href=""><span>Shop</span></a>
+                        </li>
+                    </ul>
+                    <div class="cl"></div>
+                    <div class="wrap_search_cart">
+                        <div class="cmsms_dynamic_cart"> 
+                            <a href="javascript:void(0);" class="cmsms_dynamic_cart_button icon-basket"></a>
+                            <div class="widget_shopping_cart_content"></div>
+                        </div>
+                        <div class="wrap_header_search">
+                            <a class="search_but cmsms_icon" href="javascript:void(0);"><i class="fas fa-search"></i></a>
+                            <div class="search_line">
+                                <form method="get" action="">
+                                    {% csrf_token %}
+                                    <p>
+                                        <input name="s" id="error_search" placeholder="enter keywords" value="" type="text">
+                                        <input value="" type="submit">
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="cl"></div>
+            </div>
+            <div class="cl"></div>
+            <!-- _________________________ Finish Navigation _________________________ -->
+        </div>
+        <div class="cl"></div>
+    </header>
+</body>
+</html>
